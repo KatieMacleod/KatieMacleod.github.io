@@ -15,425 +15,460 @@ document.documentElement.className = document.documentElement.className.replace(
 if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "jquery.museresponsive.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
-  <link rel="shortcut icon" href="images/a-master-favicon.ico?crc=456327889"/>
+  <link rel="shortcut icon" href="images/b-master-favicon.ico?crc=456327889"/>
   <title>Portfolio</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=282083803"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?crc=4181506519"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4043685259" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4120000670"/>
+  <link rel="stylesheet" type="text/css" href="css/master_b-master.css?crc=4069308980"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3917511871" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_a-master.css?crc=307634831"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=268640129" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_b-master.css?crc=3443652"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_index.css?crc=3861491237" id="nomq_pagesheet"/>
   <![endif]-->
-    <!--HTML Widget code-->
-  
-		<style>
-	
-
-.mf-menu {
-  height: 70px;
-  width: 70px;
-  right: 70px;
-  text-align: center;
-  position: absolute;
-  background: #F5F3ED;
-  overflow: hidden;
-  -webkit-transition: all .2s ease;
-  transition: all .2s ease;
-  z-index: 999;
-position:absolute;
-}
-.mf-menu.active {
-  width: calc(100% - 140px);
-}
-.mf-menu.active .menuContent * {
-  opacity: 1;
-}
-.mf-menu.active span i:nth-child(1) {
-  -webkit-transform: rotate(-45deg) translate(-50%, -50%);
-          transform: rotate(-45deg) translate(-50%, -50%);
-  top: 50%;
-}
-.mf-menu.active span i:nth-child(2) {
-  -webkit-transform: translateX(-100px);
-          transform: translateX(-100px);
-  opacity: 0;
-}
-.mf-menu.active span i:nth-child(3) {
-  -webkit-transform: rotate(45deg) translate(-50%, -50%);
-          transform: rotate(45deg) translate(-50%, -50%);
-  top: 50%;
-}
-.mf-menu span {
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  right: 0;
-  cursor: pointer;
-  background: {menuColor};
-  z-index: 1;
-}
-.mf-menu span i {
-  position: absolute;
-  -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
-  width: 45%;
-  height: 2px;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #FCC7C0;
-  -webkit-transition: opacity .1s ease .1s, -webkit-transform .3s ease;
-  transition: opacity .1s ease .1s, -webkit-transform .3s ease;
-  transition: transform .3s ease, opacity .1s ease .1s;
-  transition: transform .3s ease, opacity .1s ease .1s, -webkit-transform .3s ease;
-}
-.mf-menu span i:nth-child(1) {
-  top: 40%;
-}
-.mf-menu span i:nth-child(2) {
-  top: 50%;
-}
-.mf-menu span i:nth-child(3) {
-  top: 60%;
-}
-.mf-menu .menuContent {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  line-height: 70px;
-  right: 0px;
-  text-align: center;
-}
-.mf-menu .menuContent * {
-  opacity: 0;
-}
-.mf-menu .menuContent ul li {
-  display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
-  color: #FADEB4;
-  -webkit-transition: opacity .3s ease .3s;
-  transition: opacity .3s ease .3s;
-  cursor: pointer;
-  position: relative;
-}
-.mf-menu .menuContent ul li:hover:before {
-  opacity: .8;
-  top: 13px;
-  left: 20px;
-}
-.mf-menu .menuContent ul li:hover:after {
-  opacity: .8;
-  bottom: 13px;
-  left: -20px;
-}
-.mf-menu .menuContent ul li:before, .mf-menu .menuContent ul li:after {
-  content: "";
-  position: absolute;
-  width: 20px;
-  height: 2px;
-  background: #E0E0DC;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-}
-.mf-menu .menuContent ul li:before {
-  -webkit-transform: rotate(-55deg);
-          transform: rotate(-55deg);
-  left: 60px;
-  top: -30px;
-  opacity: 0;
-  right: 0;
-  margin: auto;
-}
-.mf-menu .menuContent ul li:after {
-  -webkit-transform: rotate(-55deg);
-          transform: rotate(-55deg);
-  left: -60px;
-  bottom: -30px;
-  opacity: 0;
-  right: 0;
-  margin: auto;
-}
-
-.linkClass {
-    color: #FADEB4 !important;
-    text-decoration:none !important;
-}
-	
-</style>
-	
- </head>
+   </head>
  <body>
 
   <div class="breakpoint active" id="bp_infinity" data-min-width="1201"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox" id="page"><!-- column -->
     <div class="position_content" id="page_position_content">
-     <div class="clearfix colelem" id="pu1179"><!-- group -->
-      <div class="clearfix grpelem shared_content" id="u1179" data-content-guid="u1179_content"><!-- group -->
-       <a class="nonblock nontext museBGSize grpelem" id="u516" href="https://www.instagram.com/katie_tah_loo/?hl=en"><!-- content --></a>
-       <a class="nonblock nontext museBGSize grpelem" id="u595" href="https://www.youtube.com/channel/UCIhPm7YPCQcR4e-BjZ6RoLQ"><!-- content --></a>
-       <a class="nonblock nontext museBGSize grpelem" id="u567" href="https://vimeo.com/user33500133"><!-- content --></a>
-       <a class="nonblock nontext museBGSize grpelem" id="u598" href="https://www.linkedin.com/in/katie-macleod-4847b668/"><!-- content --></a>
-      </div>
-      <div class="size_fluid_width grpelem shared_content" id="u446" data-content-guid="u446_content"><!-- custom html -->
-       
-<div class='mf-menu'>
-  <span class='toggle'>
-    <i></i>
-    <i></i>
-    <i></i>
-  </span>
-  <div class='menuContent'>
-    <ul>
-            <li class="lineClass"><a class="linkClass" href="https://katiemacleod.github.io/">Portfolio</a></li>
-            <li class="lineClass"><a class="linkClass" href="https://katiemacleod.github.io/profile.html">Profile</a></li>
-            <li class="lineClass"><a class="linkClass" href="https://katiemacleod.github.io/contact.html">Contact</a></li>
-            <li class="lineClass"><a class="linkClass" href=""></a></li>
-            <li class="lineClass"><a class="linkClass" href=""></a></li>
-            <li class="lineClass"><a class="linkClass" href=""></a></li>
-    </ul>
-  </div>
-</div>
-
-      </div>
-     </div>
      <div class="clip_frame colelem shared_content" id="u6897" data-content-guid="u6897_content"><!-- svg -->
-      <img class="svg temp_no_img_src" id="u6893" data-orig-src="images/logo_k_v1.svg?crc=392024424" width="155" height="178" alt="" data-mu-svgfallback="images/logo_k_v1_poster_.png?crc=3904335436" src="images/blank.gif?crc=4208392903"/>
+      <img class="svg temp_no_img_src" id="u6893" data-orig-src="images/logo_k_white.svg?crc=392024424" width="227" height="237" alt="" data-mu-svgfallback="images/logo_k_white_poster_.png?crc=3909293864" src="images/blank.gif?crc=4208392903"/>
      </div>
-     <div class="clearfix colelem shared_content" id="pu10186" data-content-guid="pu10186_content"><!-- group -->
-      <div class="clearfix grpelem shared_content" id="u10186" data-content-guid="u10186_content"><!-- column -->
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10025" href="contact.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10035" href="katiemac.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10041" href="jacques-audiard.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10052" href="gress.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u10183" data-content-guid="u10183_content"><!-- column -->
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10088" href="look.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10077" href="harris-tweed.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10063" href="kaydem.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-      </div>
-      <div class="clearfix grpelem shared_content" id="u10180" data-content-guid="u10180_content"><!-- column -->
-       <a class="nonblock nontext museBGSize colelem" id="u143" href="contact.html"><!-- simple frame --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10099" href="royal-opera-house.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10110" href="mercedes.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-       <a class="nonblock nontext museBGSize rgba-background colelem" id="u10124" href="contact.html"><!-- content --><div class="fluid_height_spacer"></div></a>
-      </div>
-     </div>
-     <div class="clearfix colelem shared_content" id="u10780" data-content-guid="u10780_content"><!-- group -->
-      <div class="clearfix grpelem" id="u613"><!-- column -->
-       <div class="clearfix colelem" id="pu616"><!-- group -->
-        <div class="museBGSize grpelem" id="u616"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u622"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u628"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u634"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u3420"><!-- content --></div>
-       </div>
-       <div class="clearfix colelem" id="pu3432"><!-- group -->
-        <div class="museBGSize grpelem" id="u3432"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u3426"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u640"><!-- content --></div>
-        <div class="museBGSize grpelem" id="u3414"><!-- content --></div>
-       </div>
-      </div>
-     </div>
-     <div class="verticalspacer" data-offset-top="2523" data-content-above-spacer="2523" data-content-below-spacer="257"></div>
-     <div class="browser_width colelem" id="u194-bw">
-      <div id="u194"><!-- group -->
-       <div class="clearfix" id="u194_align_to_page">
-        <div class="clearfix grpelem" id="u472-7"><!-- content -->
-         <p id="u472-5"><span class="shared_content" data-content-guid="u472-5_0_content">+44 887 87 87 46</span><br class="shared_content" data-content-guid="u472-5_1_content"/><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk" title="Email Me"><span id="u472-3" class="shared_content" data-content-guid="u472-3_content">katiemacleod94@hotmail.co.uk</span></a></p>
+     <div class="museBGSize colelem shared_content" id="u16716" data-content-guid="u16716_content"><!-- content --></div>
+     <div class="browser_width colelem shared_content" id="u12565-bw" data-content-guid="u12565-bw_content">
+      <div id="u12565"><!-- column -->
+       <div class="clearfix" id="u12565_align_to_page">
+        <div class="position_content" id="u12565_position_content">
+         <div class="clearfix colelem shared_content" id="pu10041" data-content-guid="pu10041_content"><!-- group -->
+          <a class="nonblock nontext museBGSize rgba-background grpelem shared_content" id="u10041" href="jacques-audiard.html" data-content-guid="u10041_content"><!-- content --></a>
+          <div class="clearfix grpelem" id="pu10088"><!-- column -->
+           <a class="nonblock nontext museBGSize rgba-background colelem shared_content" id="u10088" href="look.html" data-content-guid="u10088_content"><!-- content --></a>
+           <a class="nonblock nontext museBGSize rgba-background colelem shared_content" id="u143" href="under-construction.html" data-content-guid="u143_content"><!-- simple frame --></a>
+          </div>
+          <div class="clearfix grpelem" id="pu10110"><!-- column -->
+           <a class="nonblock nontext museBGSize rgba-background colelem shared_content" id="u10110" href="mercedes.html" data-content-guid="u10110_content"><!-- content --></a>
+           <div class="clearfix colelem" id="pu10077"><!-- group -->
+            <a class="nonblock nontext museBGSize rgba-background grpelem" id="u10077" href="harris-tweed.html"><!-- content --></a>
+            <a class="nonblock nontext museBGSize rgba-background grpelem shared_content" id="u10063" href="kaydem.html" data-content-guid="u10063_content"><!-- content --></a>
+           </div>
+          </div>
+         </div>
+         <div class="clearfix colelem shared_content" id="pppu10099" data-content-guid="pppu10099_content"><!-- group -->
+          <div class="clearfix grpelem" id="ppu10099"><!-- column -->
+           <div class="clearfix colelem" id="pu10099"><!-- group -->
+            <a class="nonblock nontext museBGSize rgba-background grpelem shared_content" id="u10099" href="royal-opera-house.html" data-content-guid="u10099_content"><!-- content --></a>
+            <a class="nonblock nontext museBGSize rgba-background grpelem shared_content" id="u10025" href="under-construction.html" data-content-guid="u10025_content"><!-- content --></a>
+           </div>
+           <div class="clearfix colelem" id="pu10052"><!-- group -->
+            <a class="nonblock nontext museBGSize rgba-background grpelem" id="u10052" href="gress.html"><!-- content --></a>
+            <a class="nonblock nontext museBGSize rgba-background grpelem" id="u10124" href="under-construction.html"><!-- content --></a>
+           </div>
+          </div>
+          <a class="nonblock nontext museBGSize rgba-background grpelem shared_content" id="u10035" href="katiemac.html" data-content-guid="u10035_content"><!-- content --></a>
+         </div>
+         <div class="clearfix colelem shared_content" id="u18130" data-content-guid="u18130_content"><!-- group -->
+          <a class="nonblock nontext clearfix grpelem shared_content" id="u15574-4" href="under-construction.html" data-content-guid="u15574-4_content"><!-- content --><p id="u15574-2">Curriculum Vitae</p></a>
+          <a class="nonblock nontext clearfix grpelem shared_content" id="u16833-4" href="profile.html" data-content-guid="u16833-4_content"><!-- content --><p id="u16833-2">Profile</p></a>
+         </div>
+         <div class="clearfix colelem" id="u613"><!-- group -->
+          <div class="museBGSize grpelem shared_content" id="u616" data-content-guid="u616_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u3432" data-content-guid="u3432_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u622" data-content-guid="u622_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u628" data-content-guid="u628_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u3426" data-content-guid="u3426_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u640" data-content-guid="u640_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u634" data-content-guid="u634_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u3414" data-content-guid="u3414_content"><!-- content --></div>
+          <div class="museBGSize grpelem shared_content" id="u3420" data-content-guid="u3420_content"><!-- content --></div>
+         </div>
         </div>
-        <div class="STANDARD1 clearfix grpelem shared_content" id="u498-17" data-content-guid="u498-17_content"><!-- content -->
-         <p id="u498-15"><a class="nonblock" href="https://www.instagram.com/katie_tah_loo/?hl=en">Instagram</a><span id="u498-4"><br/></span><a class="nonblock" href="https://www.youtube.com/channel/UCIhPm7YPCQcR4e-BjZ6RoLQ">Youtube</a><span id="u498-8"><br/></span><a class="nonblock" href="https://vimeo.com/user33500133">Vimeo</a><span id="u498-12"><br/></span><a class="nonblock" href="https://www.linkedin.com/in/katie-macleod-4847b668/">LinkedIn</a></p>
+       </div>
+      </div>
+     </div>
+     <div class="verticalspacer shared_content" data-offset-top="2378" data-content-above-spacer="2345" data-content-below-spacer="290" data-content-guid="page_position_content_3_content"></div>
+     <div class="browser_width colelem" id="u15924-bw">
+      <div id="u15924"><!-- group -->
+       <div class="clearfix" id="u15924_align_to_page">
+        <div class="clearfix grpelem" id="u15922-7"><!-- content -->
+         <p id="u15922-5"><span class="shared_content" data-content-guid="u15922-5_0_content">+44 887 87 87 46</span><br class="shared_content" data-content-guid="u15922-5_1_content"/><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk" title="Email Me"><span id="u15922-3" class="shared_content" data-content-guid="u15922-3_content">katiemacleod94@hotmail.co.uk</span></a></p>
         </div>
-        <a class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem shared_content" id="u507-3" href="index.html" data-content-guid="u507-3_content"><!-- content --><p id="u507">&nbsp;</p></a>
+        <div class="STANDARD1 clearfix grpelem shared_content" id="u15921-17" data-content-guid="u15921-17_content"><!-- content -->
+         <p id="u15921-15"><a class="nonblock" href="https://www.instagram.com/katie_tah_loo/?hl=en">Instagram</a><span id="u15921-4"><br/></span><a class="nonblock" href="https://www.youtube.com/channel/UCIhPm7YPCQcR4e-BjZ6RoLQ">Youtube</a><span id="u15921-8"><br/></span><a class="nonblock" href="https://vimeo.com/user33500133">Vimeo</a><span id="u15921-12"><br/></span><a class="nonblock" href="https://www.linkedin.com/in/katie-macleod-4847b668/">LinkedIn</a></p>
+        </div>
+        <a class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem shared_content" id="u15923-3" href="index.html" data-content-guid="u15923-3_content"><!-- content --><p id="u15923">&nbsp;</p></a>
        </div>
       </div>
      </div>
     </div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr.png?crc=228751048" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr.png?crc=308610014" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr.png?crc=155912959" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr.png?crc=4003312765" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr.png?crc=3814579355" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr.png?crc=298091779" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr.png?crc=3769317303" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr.png?crc=3857152250" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr.png?crc=196973578" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr.png?crc=127476487" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr.png?crc=502959988" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr.png?crc=314249212" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_beermats-u143-r-fr.png?crc=4236338639" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr.png?crc=512458792" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr.png?crc=271691210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr.png?crc=166889902" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr.png?crc=3994104560" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr.png?crc=3770701539" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr.png?crc=4219941854" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr.png?crc=4245035080" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr.png?crc=463901596" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_1200" data-min-width="961" data-max-width="1200"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
     <div class="position_content temp_no_id" data-orig-id="page_position_content">
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu1179"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u1179_content"><!-- placeholder node --></span>
-      <div class="browser_width grpelem" id="u446-bw">
-       <span class="size_browser_width placeholder" data-placeholder-for="u446_content"><!-- placeholder node --></span>
-      </div>
-     </div>
      <span class="clip_frame colelem placeholder" data-placeholder-for="u6897_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu10186_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u10780_content"><!-- placeholder node --></span>
-     <div class="verticalspacer" data-offset-top="2323" data-content-above-spacer="2323" data-content-below-spacer="257"></div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u194-bw">
-      <div class="temp_no_id" data-orig-id="u194"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u194_align_to_page">
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u472-7"><!-- content -->
-         <p class="temp_no_id" data-orig-id="u472-5"><span class="placeholder" data-placeholder-for="u472-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u472-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u472-3_content"><!-- placeholder node --></span></a></p>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u16716_content"><!-- placeholder node --></span>
+     <span class="browser_width colelem placeholder" data-placeholder-for="u12565-bw_content"><!-- placeholder node --></span>
+     <span class="verticalspacer placeholder" data-placeholder-for="page_position_content_3_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u15924-bw">
+      <div class="temp_no_id" data-orig-id="u15924"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u15924_align_to_page">
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u15922-7"><!-- content -->
+         <p class="temp_no_id" data-orig-id="u15922-5"><span class="placeholder" data-placeholder-for="u15922-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u15922-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u15922-3_content"><!-- placeholder node --></span></a></p>
         </div>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u498-17_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u507-3_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u15921-17_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u15923-3_content"><!-- placeholder node --></span>
        </div>
       </div>
      </div>
     </div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr2.png?crc=137894212" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr2.png?crc=4165139019" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr2.png?crc=343091361" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr2.png?crc=3811488205" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr2.png?crc=168259540" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr2.png?crc=345997567" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr2.png?crc=3870959781" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr2.png?crc=224373567" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr2.png?crc=52319231" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr2.png?crc=4106706556" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr.png?crc=502959988" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr.png?crc=314249212" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_beermats-u143-r-fr.png?crc=4236338639" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr.png?crc=512458792" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr.png?crc=271691210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr.png?crc=166889902" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr.png?crc=3994104560" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr.png?crc=3770701539" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr.png?crc=4219941854" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr.png?crc=4245035080" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr.png?crc=463901596" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_960" data-min-width="769" data-max-width="960"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
     <div class="position_content temp_no_id" data-orig-id="page_position_content">
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu1179"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u1179_content"><!-- placeholder node --></span>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u446-bw">
-       <span class="size_browser_width placeholder" data-placeholder-for="u446_content"><!-- placeholder node --></span>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u6897_content"><!-- placeholder node --></span>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u16716_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u12565-bw">
+      <div class="temp_no_id" data-orig-id="u12565"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u12565_align_to_page">
+        <div class="position_content temp_no_id" data-orig-id="u12565_position_content">
+         <span class="clearfix colelem placeholder" data-placeholder-for="pu10041_content"><!-- placeholder node --></span>
+         <span class="clearfix colelem placeholder" data-placeholder-for="pppu10099_content"><!-- placeholder node --></span>
+         <span class="clearfix colelem placeholder" data-placeholder-for="u18130_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem temp_no_id" data-orig-id="u613"><!-- column -->
+          <div class="clearfix colelem" id="pu616"><!-- group -->
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u616_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u622_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u3426_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u634_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u3420_content"><!-- placeholder node --></span>
+          </div>
+          <div class="clearfix colelem" id="pu3432"><!-- group -->
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u3432_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u628_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u640_content"><!-- placeholder node --></span>
+           <span class="museBGSize grpelem placeholder" data-placeholder-for="u3414_content"><!-- placeholder node --></span>
+          </div>
+         </div>
+        </div>
+       </div>
       </div>
      </div>
-     <div class="clip_frame colelem temp_no_id shared_content" data-orig-id="u6897" data-content-guid="u6897_content1"><!-- svg -->
-      <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/logo_k_v1.svg?crc=392024424" width="123" height="141" alt="" data-mu-svgfallback="images/logo_k_v1_poster_.png?crc=3904335436" data-orig-id="u6893" src="images/blank.gif?crc=4208392903"/>
-     </div>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu10186"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u10186_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u10180_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u10183_content"><!-- placeholder node --></span>
-     </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u10780_content"><!-- placeholder node --></span>
-     <div class="verticalspacer" data-offset-top="1874" data-content-above-spacer="1873" data-content-below-spacer="258"></div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u194-bw">
-      <div class="temp_no_id" data-orig-id="u194"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u194_align_to_page">
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u472-7"><!-- content -->
-         <p class="temp_no_id" data-orig-id="u472-5"><span class="placeholder" data-placeholder-for="u472-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u472-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u472-3_content"><!-- placeholder node --></span></a></p>
+     <div class="verticalspacer" data-offset-top="2149" data-content-above-spacer="2029" data-content-below-spacer="377"></div>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u15924-bw">
+      <div class="temp_no_id" data-orig-id="u15924"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u15924_align_to_page">
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u15922-7"><!-- content -->
+         <p class="temp_no_id" data-orig-id="u15922-5"><span class="placeholder" data-placeholder-for="u15922-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u15922-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u15922-3_content"><!-- placeholder node --></span></a></p>
         </div>
-        <span class="clearfix grpelem placeholder" data-placeholder-for="u498-17_content"><!-- placeholder node --></span>
-        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u507-3_content"><!-- placeholder node --></span>
+        <span class="clearfix grpelem placeholder" data-placeholder-for="u15921-17_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u15923-3_content"><!-- placeholder node --></span>
        </div>
       </div>
      </div>
     </div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr3.png?crc=4267999629" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr3.png?crc=88390175" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr3.png?crc=65002506" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr3.png?crc=519061690" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr3.png?crc=4269952146" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr3.png?crc=170776314" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr3.png?crc=3825371476" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr3.png?crc=3979044168" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr3.png?crc=4064834791" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr3.png?crc=459966065" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr.png?crc=502959988" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr.png?crc=314249212" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_beermats-u143-r-fr.png?crc=4236338639" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr.png?crc=512458792" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr.png?crc=271691210" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr.png?crc=166889902" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr.png?crc=3994104560" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr.png?crc=3770701539" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr.png?crc=4219941854" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr.png?crc=4245035080" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr2.png?crc=463901596" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
   <div class="breakpoint" id="bp_768" data-min-width="641" data-max-width="768"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
     <div class="position_content temp_no_id" data-orig-id="page_position_content">
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu1179"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u1179_content"><!-- placeholder node --></span>
-      <div class="browser_width grpelem temp_no_id" data-orig-id="u446-bw">
-       <span class="size_browser_width placeholder" data-placeholder-for="u446_content"><!-- placeholder node --></span>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u6897_content"><!-- placeholder node --></span>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u16716_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u12565-bw">
+      <div class="temp_no_id" data-orig-id="u12565"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u12565_align_to_page">
+        <span class="clearfix colelem placeholder" data-placeholder-for="pu10041_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="pppu10099_content"><!-- placeholder node --></span>
+        <span class="clearfix colelem placeholder" data-placeholder-for="u18130_content"><!-- placeholder node --></span>
+       </div>
       </div>
      </div>
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u6897_content1"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="pu10186_content"><!-- placeholder node --></span>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u10780_content"><!-- placeholder node --></span>
-     <div class="verticalspacer" data-offset-top="1557" data-content-above-spacer="1556" data-content-below-spacer="257"></div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u194-bw">
-      <div class="temp_no_id" data-orig-id="u194"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u194_align_to_page">
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u472-7"><!-- content -->
-         <p class="temp_no_id" data-orig-id="u472-5"><span class="placeholder" data-placeholder-for="u472-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u472-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u472-3_content"><!-- placeholder node --></span></a></p>
+     <div class="clearfix colelem temp_no_id" data-orig-id="u613"><!-- column -->
+      <div class="clearfix colelem temp_no_id" data-orig-id="pu616"><!-- group -->
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u616_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u622_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u3426_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u634_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u3420_content"><!-- placeholder node --></span>
+      </div>
+      <div class="clearfix colelem temp_no_id" data-orig-id="pu3432"><!-- group -->
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u3432_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u628_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u640_content"><!-- placeholder node --></span>
+       <span class="museBGSize grpelem placeholder" data-placeholder-for="u3414_content"><!-- placeholder node --></span>
+      </div>
+     </div>
+     <div class="verticalspacer" data-offset-top="1826" data-content-above-spacer="1826" data-content-below-spacer="257"></div>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u15924-bw">
+      <div class="temp_no_id" data-orig-id="u15924"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u15924_align_to_page">
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u15922-7"><!-- content -->
+         <p class="temp_no_id" data-orig-id="u15922-5"><span class="placeholder" data-placeholder-for="u15922-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u15922-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u15922-3_content"><!-- placeholder node --></span></a></p>
         </div>
-        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u507-3_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u15923-3_content"><!-- placeholder node --></span>
        </div>
       </div>
      </div>
     </div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr4.png?crc=3821850955" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr4.png?crc=4089905932" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr4.png?crc=458848198" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr4.png?crc=28299641" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr4.png?crc=512636342" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr4.png?crc=412228391" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr4.png?crc=3893065728" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr4.png?crc=4266820825" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr4.png?crc=4160868846" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr4.png?crc=4095050009" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr2.png?crc=3859479684" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr2.png?crc=4132525043" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_beermats-u143-r-fr2.png?crc=4245093434" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr2.png?crc=15207220" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr2.png?crc=246542763" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr2.png?crc=408563216" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr2.png?crc=3854278202" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr2.png?crc=4155283742" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr2.png?crc=4235111599" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr2.png?crc=3987978941" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr3.png?crc=4096103679" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
-  <div class="breakpoint" id="bp_640" data-max-width="640"><!-- responsive breakpoint node -->
+  <div class="breakpoint" id="bp_640" data-min-width="501" data-max-width="640"><!-- responsive breakpoint node -->
    <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
     <div class="position_content temp_no_id" data-orig-id="page_position_content">
-     <div class="browser_width colelem temp_no_id" data-orig-id="u446-bw">
-      <span class="size_browser_width placeholder" data-placeholder-for="u446_content"><!-- placeholder node --></span>
-     </div>
-     <span class="clip_frame colelem placeholder" data-placeholder-for="u6897_content1"><!-- placeholder node --></span>
-     <div class="clearfix colelem temp_no_id" data-orig-id="pu10186"><!-- group -->
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u10186_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u10180_content"><!-- placeholder node --></span>
-      <span class="clearfix grpelem placeholder" data-placeholder-for="u10183_content"><!-- placeholder node --></span>
-     </div>
-     <span class="clearfix colelem placeholder" data-placeholder-for="u10780_content"><!-- placeholder node --></span>
-     <div class="verticalspacer" data-offset-top="1429" data-content-above-spacer="1428" data-content-below-spacer="257"></div>
-     <div class="browser_width colelem temp_no_id" data-orig-id="u194-bw">
-      <div class="temp_no_id" data-orig-id="u194"><!-- group -->
-       <div class="clearfix temp_no_id" data-orig-id="u194_align_to_page">
-        <div class="clearfix grpelem temp_no_id" data-orig-id="u472-7"><!-- content -->
-         <p class="temp_no_id" data-orig-id="u472-5"><span class="placeholder" data-placeholder-for="u472-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u472-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u472-3_content"><!-- placeholder node --></span></a></p>
+     <span class="clip_frame colelem placeholder" data-placeholder-for="u6897_content"><!-- placeholder node --></span>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u16716_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu12565"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u12565-bw">
+       <div class="temp_no_id" data-orig-id="u12565"><!-- column -->
+        <div class="clearfix temp_no_id" data-orig-id="u12565_align_to_page">
+         <span class="clearfix colelem placeholder" data-placeholder-for="pu10041_content"><!-- placeholder node --></span>
+         <span class="clearfix colelem placeholder" data-placeholder-for="pppu10099_content"><!-- placeholder node --></span>
+         <div class="clearfix colelem temp_no_id" data-orig-id="u18130"><!-- column -->
+          <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u15574-4_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u16833-4_content"><!-- placeholder node --></span>
+         </div>
         </div>
+       </div>
+      </div>
+      <div class="clearfix grpelem temp_no_id" data-orig-id="u613"><!-- column -->
+       <div class="clearfix colelem temp_no_id" data-orig-id="pu616"><!-- group -->
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u616_content"><!-- placeholder node --></span>
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u622_content"><!-- placeholder node --></span>
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u3426_content"><!-- placeholder node --></span>
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u634_content"><!-- placeholder node --></span>
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u3420_content"><!-- placeholder node --></span>
+       </div>
+       <div class="clearfix colelem temp_no_id" data-orig-id="pu3432"><!-- group -->
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u3432_content"><!-- placeholder node --></span>
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u628_content"><!-- placeholder node --></span>
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u640_content"><!-- placeholder node --></span>
+        <span class="museBGSize grpelem placeholder" data-placeholder-for="u3414_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+     <div class="verticalspacer" data-offset-top="1736" data-content-above-spacer="1736" data-content-below-spacer="257"></div>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u15924-bw">
+      <div class="temp_no_id" data-orig-id="u15924"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u15924_align_to_page">
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u15922-7"><!-- content -->
+         <p class="temp_no_id" data-orig-id="u15922-5"><span class="placeholder" data-placeholder-for="u15922-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u15922-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u15922-3_content"><!-- placeholder node --></span></a></p>
+        </div>
+        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u15923-3_content"><!-- placeholder node --></span>
        </div>
       </div>
      </div>
     </div>
    </div>
    <div class="preload_images">
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr5.png?crc=3808804107" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr5.png?crc=3955517852" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr5.png?crc=4219081640" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr5.png?crc=304839871" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr5.png?crc=3782449983" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr5.png?crc=108002551" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr5.png?crc=3823228046" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr5.png?crc=4167979490" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr5.png?crc=12532444" alt="" src="images/blank.gif?crc=4208392903"/>
-    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr5.png?crc=412915371" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr3.png?crc=4194634816" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr3.png?crc=4132091741" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_beermats-u143-r-fr3.png?crc=4167071385" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr3.png?crc=414642281" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_bobbin_934-u10077-r-fr3.png?crc=407580120" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr3.png?crc=3867962055" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr3.png?crc=4035708707" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr3.png?crc=3905010038" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_gress-u10052-r-fr3.png?crc=3949954564" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_forkeepssake_934-u10124-r-fr3.png?crc=4153894945" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr4.png?crc=3879357167" alt="" src="images/blank.gif?crc=4208392903"/>
    </div>
   </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn2.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
-</script>
+  <div class="breakpoint" id="bp_500" data-min-width="321" data-max-width="500"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <div class="clip_frame colelem temp_no_id" data-orig-id="u6897"><!-- svg -->
+      <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/logo_k_white.svg?crc=392024424" width="174" height="182" alt="" data-mu-svgfallback="images/logo_k_white_poster_.png?crc=3909293864" data-orig-id="u6893" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u16716_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u12565-bw">
+      <div class="temp_no_id" data-orig-id="u12565"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u12565_align_to_page">
+        <div class="position_content temp_no_id" data-orig-id="u12565_position_content">
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu10088"><!-- group -->
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u10088_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u10110_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem" id="pu143"><!-- group -->
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u143_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u10025_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem temp_no_id" data-orig-id="pu10041"><!-- group -->
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u10041_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u10099_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem" id="pu10063"><!-- group -->
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u10063_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext museBGSize rgba-background grpelem placeholder" data-placeholder-for="u10035_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem temp_no_id" data-orig-id="u18130"><!-- column -->
+          <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u15574-4_content"><!-- placeholder node --></span>
+          <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u16833-4_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix colelem" id="pu613"><!-- group -->
+          <div class="grpelem temp_no_id shared_content" data-orig-id="u613" data-content-guid="u613_content"><!-- simple frame --></div>
+          <div class="clearfix grpelem temp_no_id" data-orig-id="pu616"><!-- column -->
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u616_content"><!-- placeholder node --></span>
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u634_content"><!-- placeholder node --></span>
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u640_content"><!-- placeholder node --></span>
+          </div>
+          <div class="clearfix grpelem" id="pu622"><!-- column -->
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u622_content"><!-- placeholder node --></span>
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u3432_content"><!-- placeholder node --></span>
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u3414_content"><!-- placeholder node --></span>
+          </div>
+          <div class="clearfix grpelem" id="pu3426"><!-- column -->
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u3426_content"><!-- placeholder node --></span>
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u628_content"><!-- placeholder node --></span>
+           <span class="museBGSize colelem placeholder" data-placeholder-for="u3420_content"><!-- placeholder node --></span>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="verticalspacer" data-offset-top="2153" data-content-above-spacer="2152" data-content-below-spacer="258"></div>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u15924-bw">
+      <div class="temp_no_id" data-orig-id="u15924"><!-- group -->
+       <div class="clearfix temp_no_id" data-orig-id="u15924_align_to_page">
+        <div class="clearfix grpelem temp_no_id" data-orig-id="u15922-7"><!-- content -->
+         <p class="temp_no_id" data-orig-id="u15922-5"><span class="placeholder" data-placeholder-for="u15922-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u15922-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u15922-3_content"><!-- placeholder node --></span></a></p>
+        </div>
+        <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u15923-3_content"><!-- placeholder node --></span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr.png?crc=314249212" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr.png?crc=512458792" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_beermats-u143-r-fr.png?crc=4236338639" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr.png?crc=3770701539" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr4.png?crc=464080087" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr.png?crc=3994104560" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_kaydem_934-u10063-r-fr.png?crc=166889902" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr5.png?crc=4199594291" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_320" data-max-width="320"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- column -->
+    <div class="position_content temp_no_id" data-orig-id="page_position_content">
+     <div class="clip_frame colelem temp_no_id" data-orig-id="u6897"><!-- svg -->
+      <img class="svg temp_no_id temp_no_img_src" data-orig-src="images/logo_k_white.svg?crc=392024424" width="103" height="108" alt="" data-mu-svgfallback="images/logo_k_white_poster_.png?crc=3909293864" data-orig-id="u6893" src="images/blank.gif?crc=4208392903"/>
+     </div>
+     <span class="museBGSize colelem placeholder" data-placeholder-for="u16716_content"><!-- placeholder node --></span>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u12565-bw">
+      <div class="temp_no_id" data-orig-id="u12565"><!-- column -->
+       <div class="clearfix temp_no_id" data-orig-id="u12565_align_to_page">
+        <span class="nonblock nontext museBGSize rgba-background colelem placeholder" data-placeholder-for="u10088_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext museBGSize rgba-background colelem placeholder" data-placeholder-for="u10110_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext museBGSize rgba-background colelem placeholder" data-placeholder-for="u10099_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext museBGSize rgba-background colelem placeholder" data-placeholder-for="u10025_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext museBGSize rgba-background colelem placeholder" data-placeholder-for="u10035_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext museBGSize rgba-background colelem placeholder" data-placeholder-for="u10041_content"><!-- placeholder node --></span>
+        <span class="nonblock nontext museBGSize rgba-background colelem placeholder" data-placeholder-for="u143_content"><!-- placeholder node --></span>
+        <div class="clearfix colelem temp_no_id" data-orig-id="u18130"><!-- column -->
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u16833-4_content"><!-- placeholder node --></span>
+         <span class="nonblock nontext clearfix colelem placeholder" data-placeholder-for="u15574-4_content"><!-- placeholder node --></span>
+        </div>
+        <div class="clearfix colelem temp_no_id" data-orig-id="pu613"><!-- group -->
+         <span class="grpelem placeholder" data-placeholder-for="u613_content"><!-- placeholder node --></span>
+         <div class="clearfix grpelem temp_no_id" data-orig-id="pu616"><!-- column -->
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u616_content"><!-- placeholder node --></span>
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u634_content"><!-- placeholder node --></span>
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u628_content"><!-- placeholder node --></span>
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u640_content"><!-- placeholder node --></span>
+         </div>
+         <div class="clearfix grpelem temp_no_id" data-orig-id="pu622"><!-- column -->
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u622_content"><!-- placeholder node --></span>
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u3432_content"><!-- placeholder node --></span>
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u3426_content"><!-- placeholder node --></span>
+          <span class="museBGSize colelem placeholder" data-placeholder-for="u3420_content"><!-- placeholder node --></span>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="verticalspacer" data-offset-top="2593" data-content-above-spacer="2593" data-content-below-spacer="257"></div>
+     <div class="clearfix colelem" id="pu15924"><!-- group -->
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u15924-bw">
+       <div class="temp_no_id" data-orig-id="u15924"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u15924_align_to_page">
+         <span class="nonblock nontext MuseLinkActive museBGSize clearfix grpelem placeholder" data-placeholder-for="u15923-3_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem" id="u15922-7-bw">
+       <div class="clearfix temp_no_id" data-orig-id="u15922-7"><!-- content -->
+        <p class="temp_no_id" data-orig-id="u15922-5"><span class="placeholder" data-placeholder-for="u15922-5_0_content"><!-- placeholder node --></span><span class="placeholder" data-placeholder-for="u15922-5_1_content"><!-- placeholder node --></span><a class="nonblock" href="mailto:katiemacleod94@hotmail.co.uk"><span class="placeholder" data-placeholder-for="u15922-3_content"><!-- placeholder node --></span></a></p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="preload_images">
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_look_934-u10088-r-fr.png?crc=314249212" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_merc_amg-u10110-r-fr.png?crc=512458792" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_roh_934-u10099-r-fr.png?crc=3994104560" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_comprehensionvideo-u10025-r-fr.png?crc=3770701539" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_katiemac_burger_934-u10035-r-fr5.png?crc=4199594291" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_square_audiard_934-u10041-r-fr4.png?crc=464080087" alt="" src="images/blank.gif?crc=4208392903"/>
+    <img class="preload temp_no_img_src" data-orig-src="images/homepage_preview_rectangle_beermats-u143-r-fr.png?crc=4236338639" alt="" src="images/blank.gif?crc=4208392903"/>
+   </div>
+  </div>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide weather to suppress missing file error or not based on preference setting
@@ -459,16 +494,5 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=3951022091" type="text/javascript" async data-main="scripts/museconfig.js?crc=4177022356" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
-  
-  <!--HTML Widget code-->
-  
-<script>
-    $('.lineClass a:empty').parent().hide();
-    $('.toggle').on('click', function() {
-	$('.mf-menu').toggleClass('active');
-
-});
-</script>
-	
    </body>
 </html>
