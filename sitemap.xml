@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://katiemacleod.github.io/index.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://katiemacleod.github.io/images/logo_k_white.svg</image:loc>
+      <image:loc>http://katiemacleod.github.io/images/logo_k_blue.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://katiemacleod.github.io/marketing-manchester.html</loc>
+    <lastmod>2017-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>http://katiemacleod.github.io/look.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -29,7 +47,7 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/mercedes.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -47,7 +65,7 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/harris-tweed.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -65,7 +83,7 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/comprehension.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -83,7 +101,7 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/kaydem.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -101,79 +119,7 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/gress.html</loc>
-    <lastmod>2017-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://katiemacleod.github.io/marketing-manchester.html</loc>
-    <lastmod>2017-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://katiemacleod.github.io/run-simple.html</loc>
-    <lastmod>2017-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://katiemacleod.github.io/sky-premiums.html</loc>
-    <lastmod>2017-10-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>http://katiemacleod.github.io/royal-opera-house.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -191,7 +137,7 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/katiemac.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -208,8 +154,44 @@
     </image:image>
   </url>
   <url>
-    <loc>http://katiemacleod.github.io/jacques-audiard.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <loc>http://katiemacleod.github.io/run-simple.html</loc>
+    <lastmod>2017-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://katiemacleod.github.io/sky-premiums.html</loc>
+    <lastmod>2017-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://katiemacleod.github.io/royal-opera-house.html</loc>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -227,7 +209,25 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/for-keeps-sake.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-01.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-05.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-04.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://katiemacleod.github.io/images/social_icons-03.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://katiemacleod.github.io/jacques-audiard.html</loc>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -245,7 +245,7 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/under-construction.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -263,7 +263,13 @@
   </url>
   <url>
     <loc>http://katiemacleod.github.io/profile.html</loc>
-    <lastmod>2017-10-28</lastmod>
+    <lastmod>2017-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://katiemacleod.github.io/assets/katie_macleod_cv_v1.pdf</loc>
+    <lastmod>2017-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

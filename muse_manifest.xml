@@ -1,42 +1,45 @@
-<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://katiemacleod.github.io" resolutions="1x" timestamp="1509207209180">
+<manifest alg="2" build="2017.0.4.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="http://katiemacleod.github.io" resolutions="1x" timestamp="1510504177579">
   <folder name="css">
     <file name="site_global.css" crc="4120000670"/>
-    <file name="master_b-master.css" crc="4069308980" ref="index:profile"/>
-    <file name="nomq_preview_master_b-master.css" crc="3443652" ref="index:profile"/>
-    <file name="master_a-master.css" crc="535058825" ref="harris-tweed:under-construction:royal-opera-house:comprehension:kaydem:katiemac:gress:jacques-audiard:marketing-manchester:look:run-simple:mercedes:for-keeps-sake:sky-premiums"/>
-    <file name="nomq_preview_master_a-master.css" crc="153393400" ref="harris-tweed:under-construction:royal-opera-house:comprehension:kaydem:katiemac:gress:jacques-audiard:marketing-manchester:look:run-simple:mercedes:for-keeps-sake:sky-premiums"/>
-    <file name="harris-tweed.css" crc="233460217" ref="harris-tweed"/>
-    <file name="nomq_harris-tweed.css" crc="3897289986" ref="harris-tweed"/>
-    <file name="under-construction.css" crc="3875473311" ref="under-construction"/>
-    <file name="nomq_under-construction.css" crc="4538404" ref="under-construction"/>
-    <file name="royal-opera-house.css" crc="3991379188" ref="royal-opera-house"/>
-    <file name="nomq_royal-opera-house.css" crc="3802893639" ref="royal-opera-house"/>
-    <file name="comprehension.css" crc="4189799699" ref="comprehension"/>
-    <file name="nomq_comprehension.css" crc="268351492" ref="comprehension"/>
-    <file name="kaydem.css" crc="4012306643" ref="kaydem"/>
-    <file name="nomq_kaydem.css" crc="80913887" ref="kaydem"/>
-    <file name="katiemac.css" crc="466632502" ref="katiemac"/>
-    <file name="nomq_katiemac.css" crc="315146700" ref="katiemac"/>
-    <file name="gress.css" crc="524562685" ref="gress"/>
-    <file name="nomq_gress.css" crc="489367230" ref="gress"/>
-    <file name="index.css" crc="3917511871" ref="index"/>
-    <file name="nomq_index.css" crc="3861491237" ref="index"/>
-    <file name="jacques-audiard.css" crc="377124083" ref="jacques-audiard"/>
-    <file name="nomq_jacques-audiard.css" crc="3801619986" ref="jacques-audiard"/>
-    <file name="marketing-manchester.css" crc="4120303640" ref="marketing-manchester"/>
-    <file name="nomq_marketing-manchester.css" crc="4158307573" ref="marketing-manchester"/>
-    <file name="look.css" crc="242026025" ref="look"/>
-    <file name="nomq_look.css" crc="4063321625" ref="look"/>
-    <file name="profile.css" crc="145192869" ref="profile"/>
-    <file name="nomq_profile.css" crc="187381896" ref="profile"/>
-    <file name="run-simple.css" crc="337262669" ref="run-simple"/>
-    <file name="nomq_run-simple.css" crc="92765954" ref="run-simple"/>
-    <file name="mercedes.css" crc="383320880" ref="mercedes"/>
-    <file name="nomq_mercedes.css" crc="4176144800" ref="mercedes"/>
-    <file name="for-keeps-sake.css" crc="107624628" ref="for-keeps-sake"/>
-    <file name="nomq_for-keeps-sake.css" crc="3846118214" ref="for-keeps-sake"/>
-    <file name="sky-premiums.css" crc="212034234" ref="sky-premiums"/>
-    <file name="nomq_sky-premiums.css" crc="502816303" ref="sky-premiums"/>
+    <file name="master_b-master.css" crc="465178786" ref="index:profile"/>
+    <file name="nomq_preview_master_b-master.css" crc="4032624033" ref="index:profile"/>
+    <file name="master_a-master.css" crc="3880200719" ref="harris-tweed:under-construction:royal-opera-house:comprehension:kaydem:katiemac:gress:jacques-audiard:marketing-manchester:look:run-simple:mercedes:for-keeps-sake:sky-premiums"/>
+    <file name="nomq_preview_master_a-master.css" crc="77713801" ref="harris-tweed:under-construction:royal-opera-house:comprehension:kaydem:katiemac:gress:jacques-audiard:marketing-manchester:look:run-simple:mercedes:for-keeps-sake:sky-premiums"/>
+    <file name="harris-tweed.css" crc="154447679" ref="harris-tweed"/>
+    <file name="nomq_harris-tweed.css" crc="4118708642" ref="harris-tweed"/>
+    <file name="under-construction.css" crc="56554360" ref="under-construction"/>
+    <file name="nomq_under-construction.css" crc="55643975" ref="under-construction"/>
+    <file name="royal-opera-house.css" crc="3926559294" ref="royal-opera-house"/>
+    <file name="nomq_royal-opera-house.css" crc="509541473" ref="royal-opera-house"/>
+    <file name="comprehension.css" crc="4222468832" ref="comprehension"/>
+    <file name="nomq_comprehension.css" crc="440022791" ref="comprehension"/>
+    <file name="kaydem.css" crc="99218230" ref="kaydem"/>
+    <file name="nomq_kaydem.css" crc="3856050766" ref="kaydem"/>
+    <file name="katiemac.css" crc="347410586" ref="katiemac"/>
+    <file name="nomq_katiemac.css" crc="3815510356" ref="katiemac"/>
+    <file name="gress.css" crc="373300756" ref="gress"/>
+    <file name="nomq_gress.css" crc="412207217" ref="gress"/>
+    <file name="index.css" crc="3949862591" ref="index"/>
+    <file name="nomq_index.css" crc="4130917665" ref="index"/>
+    <file name="jacques-audiard.css" crc="197519007" ref="jacques-audiard"/>
+    <file name="nomq_jacques-audiard.css" crc="3816300315" ref="jacques-audiard"/>
+    <file name="marketing-manchester.css" crc="4041923336" ref="marketing-manchester"/>
+    <file name="nomq_marketing-manchester.css" crc="4176278645" ref="marketing-manchester"/>
+    <file name="look.css" crc="4151460318" ref="look"/>
+    <file name="nomq_look.css" crc="295287103" ref="look"/>
+    <file name="profile.css" crc="305013227" ref="profile"/>
+    <file name="nomq_profile.css" crc="3931825949" ref="profile"/>
+    <file name="run-simple.css" crc="4148415061" ref="run-simple"/>
+    <file name="nomq_run-simple.css" crc="255499949" ref="run-simple"/>
+    <file name="mercedes.css" crc="3848111262" ref="mercedes"/>
+    <file name="nomq_mercedes.css" crc="4162719361" ref="mercedes"/>
+    <file name="for-keeps-sake.css" crc="464659774" ref="for-keeps-sake"/>
+    <file name="nomq_for-keeps-sake.css" crc="4118633422" ref="for-keeps-sake"/>
+    <file name="sky-premiums.css" crc="73531932" ref="sky-premiums"/>
+    <file name="nomq_sky-premiums.css" crc="472671364" ref="sky-premiums"/>
+  </folder>
+  <folder name="assets">
+    <file name="katie_macleod_cv_v1.pdf" crc="387018205" seo="true" mt="1510502469000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:look:mercedes:harris-tweed:comprehension:kaydem:gress:marketing-manchester:run-simple:sky-premiums:royal-opera-house:katiemac:jacques-audiard:for-keeps-sake:under-construction:profile"/>
@@ -49,8 +52,8 @@
     <file name="require.js" crc="3951022091" ref="index:look:mercedes:harris-tweed:comprehension:kaydem:gress:marketing-manchester:run-simple:sky-premiums:royal-opera-house:katiemac:jacques-audiard:for-keeps-sake:under-construction:profile"/>
   </folder>
   <folder name="images">
-    <file name="b-master-favicon.ico" crc="456327889" ref="index"/>
-    <file name="logo_k_white.svg" crc="392024424" seo="true" ref="index:profile">
+    <file name="b-master-favicon.ico" crc="203924518" ref="index"/>
+    <file name="logo_k_blue.svg" crc="4145520233" seo="true" ref="index:profile">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -59,9 +62,9 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="logo_k_white_poster_.png" crc="3909293864" ref="index"/>
-    <file name="arrow_down.svg" crc="3927787144" ref="index"/>
-    <file name="arrow_down_poster_u16689.png" crc="54166245" ref="index"/>
+    <file name="logo_k_blue_poster_.png" crc="155965390" ref="index"/>
+    <file name="arrow_down.svg" crc="4121619427" ref="index"/>
+    <file name="arrow_down_poster_u19776.png" crc="4043167640" ref="index"/>
     <file name="homepage_preview_square_audiard_934.jpg" crc="4048411706" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
@@ -138,70 +141,122 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="homepage_preview_square_katiemac_burger_934-u10035-r-fr.png" crc="463901596" ref="index"/>
-    <file name="loreal_v1.png" crc="3964230097" ref="index">
+    <file name="blank.gif" crc="4208392903" ref="index:look:mercedes:harris-tweed:comprehension:kaydem:gress:marketing-manchester:run-simple:sky-premiums:royal-opera-house:katiemac:jacques-audiard:for-keeps-sake:under-construction:profile"/>
+    <file name="loreal_v1.png" crc="493470552" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="mm_v1.png" crc="3854246245" ref="index">
+    <file name="mm_v1.png" crc="433020892" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="vm_v1.png" crc="4090002529" ref="index">
+    <file name="vm_v1.png" crc="3974382836" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="paypal_v1.png" crc="4266480662" ref="index">
+    <file name="paypal_v1.png" crc="129899270" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="buxton_v1.png" crc="473657118" ref="index">
+    <file name="buxton_v1-u3426-fr.png" crc="341026586" ref="index"/>
+    <file name="mb_v1.png" crc="342226899" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="mb_v1.png" crc="340537487" ref="index">
+    <file name="sap_v1.png" crc="455293467" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="sap_v1.png" crc="3929798794" ref="index">
+    <file name="upc_v1.png" crc="4013200083" ref="index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="smart_v1.png" crc="345131625" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="upc_v1.png" crc="4001391723" ref="index">
+    <file name="instagram_1.png" crc="321286886" ref="index:look:kaydem:profile">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="kaydem" alt=""/>
+      <caption webpage="kaydem" alt=""/>
     </file>
-    <file name="smart_v1.png" crc="411081866" ref="index">
+    <file name="youtube_1.png" crc="3902836317" ref="index:look:kaydem:profile">
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="kaydem" alt=""/>
+      <caption webpage="kaydem" alt=""/>
     </file>
-    <file name="icon_house-01.svg" crc="3791370475" ref="index:look:kaydem:profile"/>
-    <file name="icon_house-01_poster_u8197.png" crc="308023478" ref="index:look:kaydem:profile"/>
+    <file name="linkedin_1.png" crc="333790231" ref="index:look:kaydem:profile">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="look" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="profile" alt=""/>
+      <caption webpage="kaydem" alt=""/>
+      <caption webpage="kaydem" alt=""/>
+    </file>
+    <file name="icon_house-01.svg" crc="3781101882" ref="index:look:kaydem:profile"/>
+    <file name="icon_house-01_poster_u20742.png" crc="4007143608" ref="index:look:kaydem:profile"/>
     <file name="homepage_preview_square_katiemac_burger_934-u10035-r-fr2.png" crc="463901596" ref="index"/>
     <file name="homepage_preview_square_audiard_934-u10041-fr.jpg" crc="47052603" ref="index"/>
     <file name="homepage_preview_square_audiard_934-u10041-r-fr2.png" crc="3859479684" ref="index"/>
@@ -225,15 +280,15 @@
     <file name="homepage_preview_square_forkeepssake_934-u10124-r-fr2.png" crc="3987978941" ref="index"/>
     <file name="homepage_preview_square_katiemac_burger_934-u10035-fr.jpg" crc="133618765" ref="index"/>
     <file name="homepage_preview_square_katiemac_burger_934-u10035-r-fr3.png" crc="4096103679" ref="index"/>
-    <file name="loreal_v1-u616-fr.png" crc="482698329" ref="index"/>
-    <file name="vm_v1-u622-fr.png" crc="258248377" ref="index"/>
-    <file name="buxton_v1-u3426-fr.png" crc="168332008" ref="index"/>
-    <file name="sap_v1-u634-fr.png" crc="3905736541" ref="index"/>
-    <file name="smart_v1-u3420-fr.png" crc="225836665" ref="index"/>
-    <file name="mm_v1-u3432-fr.png" crc="420190059" ref="index"/>
-    <file name="paypal_v1-u628-fr.png" crc="4227739056" ref="index"/>
-    <file name="mb_v1-u640-fr.png" crc="261578721" ref="index"/>
-    <file name="upc_v1-u3414-fr.png" crc="4081061072" ref="index"/>
+    <file name="loreal_v1-u616-fr.png" crc="3847390087" ref="index"/>
+    <file name="vm_v1-u622-fr.png" crc="162766540" ref="index"/>
+    <file name="buxton_v1-u3426-fr2.png" crc="3841515895" ref="index"/>
+    <file name="sap_v1-u634-fr.png" crc="3896954199" ref="index"/>
+    <file name="smart_v1-u3420-fr.png" crc="116060032" ref="index"/>
+    <file name="mm_v1-u3432-fr.png" crc="3951202606" ref="index"/>
+    <file name="paypal_v1-u628-fr.png" crc="122867767" ref="index"/>
+    <file name="mb_v1-u640-fr.png" crc="123416295" ref="index"/>
+    <file name="upc_v1-u3414-fr.png" crc="284176352" ref="index"/>
     <file name="homepage_preview_square_audiard_934-u10041-fr2.jpg" crc="124553406" ref="index"/>
     <file name="homepage_preview_square_audiard_934-u10041-r-fr3.png" crc="4194634816" ref="index"/>
     <file name="homepage_preview_square_look_934-u10088-fr2.jpg" crc="4039543489" ref="index"/>
@@ -260,8 +315,8 @@
     <file name="homepage_preview_square_audiard_934-u10041-r-fr4.png" crc="464080087" ref="index"/>
     <file name="homepage_preview_square_katiemac_burger_934-u10035-fr3.jpg" crc="3892440553" ref="index"/>
     <file name="homepage_preview_square_katiemac_burger_934-u10035-r-fr5.png" crc="4199594291" ref="index"/>
-    <file name="blank.gif" crc="4208392903" ref="index:look:mercedes:harris-tweed:comprehension:kaydem:gress:marketing-manchester:run-simple:sky-premiums:royal-opera-house:katiemac:jacques-audiard:for-keeps-sake:under-construction:profile"/>
-    <file name="a-master-favicon.ico" crc="456327889" ref="look"/>
+    <file name="buxton_v1-u3426-fr3.png" crc="120038569" ref="index"/>
+    <file name="a-master-favicon.ico" crc="203924518" ref="look"/>
     <file name="social_icons-01.svg" crc="4148199425" seo="true" ref="look:mercedes:harris-tweed:comprehension:kaydem:gress:marketing-manchester:run-simple:sky-premiums:royal-opera-house:katiemac:jacques-audiard:for-keeps-sake:under-construction">
       <caption webpage="mercedes" alt=""/>
       <caption webpage="mercedes" alt=""/>
@@ -706,34 +761,19 @@
       <caption webpage="kaydem" alt=""/>
       <caption webpage="kaydem" alt=""/>
     </file>
-    <file name="kaydemdrone_logo_1.png" crc="478851236" ref="kaydem">
+    <file name="kaydemdrone_logo_exploration.gif" crc="4153692916" ref="kaydem">
       <caption webpage="kaydem" alt=""/>
-    </file>
-    <file name="kaydemdrone_logo_3.png" crc="425901560" ref="kaydem">
       <caption webpage="kaydem" alt=""/>
-    </file>
-    <file name="kaydemdrone_logo_2.png" crc="57152000" ref="kaydem">
       <caption webpage="kaydem" alt=""/>
-    </file>
-    <file name="kaydemdrone_logo_4.png" crc="3815317025" ref="kaydem">
       <caption webpage="kaydem" alt=""/>
-    </file>
-    <file name="kaydemdrone_logo_5-u5037-fr.png" crc="200478201" ref="kaydem"/>
-    <file name="kaydemdrone_logo_7.png" crc="4155232666" ref="kaydem">
+      <caption webpage="kaydem" alt=""/>
+      <caption webpage="kaydem" alt=""/>
       <caption webpage="kaydem" alt=""/>
     </file>
     <file name="post_aug_1-u3164-fr.jpg" crc="4038550111" ref="kaydem"/>
-    <file name="kaydemdrone_logo_5.png" crc="4177613626" ref="kaydem">
-      <caption webpage="kaydem" alt=""/>
-    </file>
     <file name="post_aug_1-u3164-fr2.jpg" crc="4066375442" ref="kaydem"/>
     <file name="post_aug_1-u3164-fr3.jpg" crc="3776191328" ref="kaydem"/>
     <file name="post_aug_1-u3164-fr4.jpg" crc="362342232" ref="kaydem"/>
-    <file name="kaydemdrone_logo_7-u5098-fr.png" crc="214916198" ref="kaydem"/>
-    <file name="kaydemdrone_logo_5-u5037-fr2.png" crc="141366078" ref="kaydem"/>
-    <file name="kaydemdrone_logo_1-u3170-fr.png" crc="3941598576" ref="kaydem"/>
-    <file name="kaydemdrone_logo_2-u5007-fr.png" crc="187245727" ref="kaydem"/>
-    <file name="kaydemdrone_logo_3-u5013-fr.png" crc="316676819" ref="kaydem"/>
     <file name="nanna_illustration_rgb.jpg" crc="4165566375" ref="gress">
       <caption webpage="gress" alt=""/>
       <caption webpage="gress" alt=""/>
@@ -870,22 +910,22 @@
     </file>
     <file name="comingsoon.svg" crc="398022322" ref="under-construction"/>
     <file name="comingsoon_poster_u4859.png" crc="3859370222" ref="under-construction"/>
-    <file name="logo_k_white_poster_u17462.png" crc="33663523" ref="profile"/>
+    <file name="logo_k_blue_poster_u19770.png" crc="3883557447" ref="profile"/>
   </folder>
-  <file name="index.html" crc="4023469836" seo="true" mt="1509206988421" redirect="true"/>
-  <file name="look.html" crc="3899358112" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="mercedes.html" crc="414287959" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="harris-tweed.html" crc="41701832" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="comprehension.html" crc="4171618204" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="kaydem.html" crc="4275523569" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="gress.html" crc="47136190" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="marketing-manchester.html" crc="470791741" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="run-simple.html" crc="3901421933" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="sky-premiums.html" crc="324415438" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="royal-opera-house.html" crc="215253591" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="katiemac.html" crc="151550226" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="jacques-audiard.html" crc="3954556262" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="for-keeps-sake.html" crc="156463800" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="under-construction.html" crc="49652132" seo="true" mt="1509203319603" redirect="true"/>
-  <file name="profile.html" crc="4258841489" seo="true" mt="1509207121173" redirect="true"/>
+  <file name="index.html" crc="3843726188" seo="true" mt="1510503811190" redirect="true"/>
+  <file name="look.html" crc="3838895642" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="mercedes.html" crc="489687270" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="harris-tweed.html" crc="177570212" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="comprehension.html" crc="4149911026" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="kaydem.html" crc="3824697344" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="gress.html" crc="3806154342" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="marketing-manchester.html" crc="4136523714" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="run-simple.html" crc="197179973" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="sky-premiums.html" crc="523177339" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="royal-opera-house.html" crc="3843823819" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="katiemac.html" crc="4150540030" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="jacques-audiard.html" crc="130304299" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="for-keeps-sake.html" crc="3901492313" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="under-construction.html" crc="230344631" seo="true" mt="1510503628142" redirect="true"/>
+  <file name="profile.html" crc="3849956109" seo="true" mt="1510503816406" redirect="true"/>
 </manifest>
